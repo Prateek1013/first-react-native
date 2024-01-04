@@ -9,7 +9,6 @@ const HomePage = () => {
   const navigation = useNavigation();
 
   const handleSubmit = async () => {
-    // You should add validation here to check if the URL is valid
     const response=await fetch(url);
     const imgUrl=await response.json();
     const urli=imgUrl.photo.url;

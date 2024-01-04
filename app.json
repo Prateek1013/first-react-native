@@ -8,6 +8,17 @@
       "expo-router"
     ],
     "name": "native-app",
-    "slug": "native-app"
+    "slug": "native-app",
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "ed07db94-986f-49e4-939b-c29c8036fe21"
+      }
+    },
+    "android": {
+      "package": "com.prateeknative.nativeapp"
+    }
   }
 }
